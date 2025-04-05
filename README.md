@@ -6,7 +6,7 @@ There should also be a short text guide in how to choose the correct size for yo
 There should also be some more filters based on price or size of the skip (The filters i use currently look bad and need a lot of improvement but i believe you will understand my idea)
 I removed the usage of images as i saw no use for it because all the images are the same and offer no information to the user.
 The top navigation i believe is great on the main website but i simply tried something a little more different
-
+The feature of selecting the card would remain the same as on the main web page but honestly i forgot to add it and remembered it just before i needed to go on a 5 hours trip but i would keep it the same as on original page
 ---
 
 # Tech Stack
