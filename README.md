@@ -1,54 +1,38 @@
-# React + TypeScript + Vite
+# My approach
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My main idea was to help a customer make a more educated guess about which skip size to choose.I tried to use all the information that i got from the backend as possible.
+Also i believe that showing which skip size is the most popular would help the customer choose an option with more confidence.
+There should also be a short text guide in how to choose the correct size for your needs
+There should also be some more filters based on price or size of the skip (The filters i use currently look bad and need a lot of improvement but i believe you will understand my idea)
+I removed the usage of images as i saw no use for it because all the images are the same and offer no information to the user.
+The top navigation i believe is great on the main website but i simply tried something a little more different
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Tech Stack
 
-## Expanding the ESLint configuration
+- **Tailwind CSS** for rapid styling and responsive design.
+- **DaisyUI** for ready-made components, streamlining development.
+- **TypeScript** for type safety and maintainable code.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+This is a simple project, so I avoided complex state management, keeping the tech stack light and efficient.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# What I Would Do With More Time
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+With more time, I would focus on:
+- **Design**: Improve visual aspects like colors, typography, and spacing.
+- **Responsiveness**: Optimize the layout for better adaptability on all devices.
+- **Features**: Add more filters or an interactive skip size estimator.
+
+Given the two-hour time constraint, this is a foundational implementation, and I would refine it further with more resources.
+
+---
+
+# Conclusion
+
+As a **Web Developer** focused on scalable, responsive web applications, I am confident in delivering a modern, user-friendly product. While design isn't my primary strength, I believe I can create applications that meet both functional and aesthetic needs with continued refinement.
+
+

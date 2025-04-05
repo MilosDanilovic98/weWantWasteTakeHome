@@ -4,7 +4,7 @@ const ProgressBar = () => {
 
 
     return (
-        <ul className="steps w-full">
+        <ul className="steps w-full steps-vertical sm:steps-horizontal ">
             <li className="step step-primary cursor-pointer">
                 <span className="step-icon"> <MapPin size={20}/></span>
                 Postcode
